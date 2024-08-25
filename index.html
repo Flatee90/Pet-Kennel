@@ -1,36 +1,43 @@
-index.html:
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Pet Form</title>
 </head>
 <body>
-    <h1>Pet Form</h1>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <h1 style="text-align: center;">Pet Form</h1>
     <h3>Sign up</h3>
-    <form>
+    <form action="index.html">
         <label for="userName"> First Name:</label>
         <input type="text" id="userName"><br>
-        
+
         <label for="userName">Last Name</label>
-        <input type="text" id="userName"><br>
-        
-        <label for="Useremail"> Email</label>
-        <input type="email" id="Useremail"><br>
-        
+        <input type="text" id="UserName"><br>
+
         <label for="petname">Pet Name:</label>
         <input type="text" name="petName" id="petname"><br>
-        
+
+        <label for="Useremail"> Email</label>
+        <input type="email" id="Useremail"><br>
+
         <label for="phonenumber">Phone Number</label>
         <input type="text" id="phonenumber"><br>
-        
+
         <label for="city">City:</label>
         <input type="text" id="city"><br>
-        
+
         <label for="zipcode">Zip Code:</label>
         <input type="text" id="zipcode"><br>
-        
+
 
         <button type="button" id="saveButton">Sign up</button>
     </form>
@@ -38,12 +45,25 @@ index.html:
         <p id="userFirstNameOutput"></p>
         <p id="userLastNameoutput"></p>
         <p id="userPetnameOutput"></p>
-        <p id="userZipCodeOutput"></p>
-        <p id="userCityOutput"></p>
         <p id="userEmailOutput"></p>
         <p id="userPhonenumberOutput"></p>
+        <p id="userCityOutput"></p>
+        <p id="userZipCodeOutput"></p>
+        
+        
     </div>
-    <script src="pet0wner.js"></script>
-    <script src="script.js"></script> 
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+<script src="pet0wnerfactory.js"></script>
+<script src="petCreator.js"></script>
+<script src="pets.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>   
 </body>
 </html>

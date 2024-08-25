@@ -31,6 +31,7 @@ function handleSave() {
     state.zipCode = zipCodeInput.value;
     state.email = emailInput.value;
 
+
     console.log(state);
 
     firstnameinput.value = "";

@@ -13,17 +13,18 @@ console.log(state);
 
 
 let saveBtn = document.getElementById("saveButton");
-let firstnameinput = document.getElementById("userName");
-let lastnameinput = document.getElementById("userName");
-let petnameInput = document.getElementById("petname");
-let cityinput = document.getElementById("city");
-let zipCodeInput = document.getElementById("zipcode");
-let phonenumberInput = document.getElementById("phonenumber");
-let emailInput = document.getElementById("Useremail");
+let firstnameInput = document.getElementById("userNameOutput");
+let lastnameInput = document.getElementById("UserNameOutput");
+let petnameInput = document.getElementById("petnameOutput");
+let cityinput = document.getElementById("cityOutput");
+let zipCodeInput = document.getElementById("zipcodeOutput");
+let phonenumberInput = document.getElementById("phonenumberOutput");
+let emailInput = document.getElementById("UseremailOutput");
 
 function handleSave() {
     console.log("save button was clicked");
-    let name = petnameInput.value;
+    let firstname = firstnameInput.value;
+
     state.name = name;
     console.log("Added name" + state.name);
 
@@ -34,8 +35,8 @@ function handleSave() {
 
     console.log(state);
 
-    firstnameinput.value = "";
-    lastnameinput.value = "";
+    firstnameInput.value = "";
+    lastnameInput.value = "";
     petnameInput.value = "";
     cityinput.value = "";
     zipCodeInput.value = "";

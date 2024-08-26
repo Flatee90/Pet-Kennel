@@ -16,13 +16,13 @@
 <body>
     <h1 style="text-align: center;">Pet Form</h1>
     <h3>Sign up</h3>
-    <form action="index.html" class="row g-2" style="margin-left: 4%; margin-right: 4%;">
-        <div class="col-md-3">
+    <form action="index.html" class="row g-3" style="margin-left: 4%; margin-right: 4%;">
+        <div class="col-md-6">
         <label for="userName"> First Name:</label>
         <input type="text" id="userName"><br>
         </div>
 
-<div class="col-md-3">
+<div class="col-md-6">
         <label for="userName">Last Name</label>
         <input type="text" id="UserName"><br>
 </div>
@@ -33,17 +33,24 @@
         </div>
         
 
-        <label for="Useremail"> Email</label>
+        <div class="col-md-6">
+        <label for="Useremail">Email</label>
         <input type="email" id="Useremail"><br>
+        </div>
 
+        <div class="col-md-3">
         <label for="phonenumber">Phone Number</label>
         <input type="text" id="phonenumber"><br>
-
+        </div>
+<div class="col-md-3">
         <label for="city">City:</label>
         <input type="text" id="city"><br>
+</div>
 
+<div class="col-md-3">
         <label for="zipcode">Zip Code:</label>
         <input type="text" id="zipcode"><br>
+</div>
 
 
         <button type="button" class="btn btn-warning" id="saveButton">Sign up</button>

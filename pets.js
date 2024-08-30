@@ -14,12 +14,12 @@ function createPet(name, species, happiness, energy) {
 }
 
 
-let addButton = document.getElementById("saveButton");
+let addButton = document.getElementById("savepets");
 let petnameInput = document.getElementById("petname");
 let petspeciesInput = document.getElementById("petspecies");
 
 
-function handleSave() {
+function handleSavepet() {
     console.log("click to save");
     let name = petnameInput.value;
     let species = petspeciesInput.value;
@@ -43,4 +43,4 @@ function render() {
 }
 
 
-addButton.addEventListener("click", handleSave);
+addButton.addEventListener("click", handleSavepet);
